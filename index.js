@@ -29,7 +29,7 @@ function isPalindrome(myString) {
        let mySubString = myString.substring(1, myString.length-2);
        isPalindrome (mySubString);
      } else {
-       return false;
+       return true;
      }
   
   } else if (myString.length % 2 === 1) {
@@ -37,7 +37,7 @@ function isPalindrome(myString) {
        let mySubString = myString.substring(1, myString.length-2);
        isPalindrome (mySubString);
       } else {
-        return false;
+        return true;
       }
   } else {
   return false;
