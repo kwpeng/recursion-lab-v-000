@@ -41,7 +41,7 @@ function isPalindrome(myString) {
         return true;
       }
   } else {
-    return true;
+    return;
   }
 }
   isPalindrome("abccba");
