@@ -44,6 +44,6 @@ function isPalindrome(myString) {
   }
 }
 
-console.log(isPalindrome("abccba"));
+console.log(isPalindrome("pizza"));
  
   
