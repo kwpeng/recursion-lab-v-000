@@ -26,21 +26,23 @@ function reverseString(myString) {
 */
 function isPalindrome(myString) {
   console.log (myString);
-  if (myString.length % 2 === 0) {
-     if (myString[0] === myString[myString.length-1] && myString.length >2 ) {
+    if (myString.length % 2 === 0) {
+      if (myString[0] === myString[myString.length-1] && myString.length >2 ) {
        let mySubString = myString.substring(1, myString.length-2);
        isPalindrome (mySubString);
      } else {
-       return false;
-     }
+       return true;
      }
   } else if (myString.length % 2 === 1); {
       if (myString[0] === myString[myString.length-1] && myString.length >1 ) {
        let mySubString = myString.substring(1, myString.length-2);
        isPalindrome (mySubString);
       } else {
-        return false;
+        return true;
       }
-  } else 
-  
+  } else {
+    return true;
+  }
+}
   isPalindrome("abccba");
+  
