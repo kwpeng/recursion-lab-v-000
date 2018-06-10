@@ -44,7 +44,7 @@ function isPalindrome(myString) {
 
 abc = "abc";
 console.log(abc);
-abcl = abc.substring(1,2);
+abcl = abc.substring(1);
 console.log(abcl);
  
   
