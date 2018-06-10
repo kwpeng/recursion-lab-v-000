@@ -44,6 +44,6 @@ function isPalindrome(myString) {
   }
 }
 
-ispalindrome("pizza");
+isPalindrome("pizza");
  
   
