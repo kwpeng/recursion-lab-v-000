@@ -1,6 +1,6 @@
 // Code your solution here!
 
-/* function printString(myString) {
+ function printString(myString) {
   console.log(myString[0]);
  
   if (myString.length > 1) {
@@ -23,7 +23,7 @@ function reverseString(myString) {
     return true;
   }
 }
-*/
+
 function isPalindrome(myString) {
     if (myString.length % 2 === 0) {
       if (myString[0] === myString[myString.length-1] && myString.length >2 ) {
