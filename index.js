@@ -40,8 +40,7 @@ function isPalindrome(myString) {
       } else {
         return true;
       }
-         console.log(myString);
 }
 }
-  isPalindrome("abcba");
+  isPalindrome("abcde");
   
