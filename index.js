@@ -42,5 +42,5 @@ function isPalindrome(myString) {
       }
 }
 }
-  isPalindrome("abccba");
+  isPalindrome("abcba");
   
