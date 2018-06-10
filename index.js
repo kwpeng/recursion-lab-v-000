@@ -25,14 +25,14 @@ function reverseString(myString) {
 
 function isPalindrome(myString) {
     if (myString.length % 2 === 0) {
-      if (myString[0] === myString[myString.length-1] && myString.length >2 ) {
+      if (myString[0] === myString[myString.length-1] && myString.length >1 ) {
        let mySubString = myString.substring(1, myString.length-2);
        isPalindrome (mySubString);
      } else {
        return false;
      }
      } else (myString.length % 2 === 1) {
-      if (myString[0] === myString[myString.length-1] && myString.length >1 ) {
+      if (myString[0] === myString[myString.length-1] && myString.length >0 ) {
        let mySubString = myString.substring(1, myString.length-2);
        isPalindrome (mySubString);
       } else {
