@@ -39,7 +39,9 @@ function isPalindrome(myString) {
       } else {
         return true;
       }
-}
+  }
+  else 
+  return false;
 }
  
   
