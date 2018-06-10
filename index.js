@@ -43,5 +43,7 @@ function isPalindrome(myString) {
   return false;
   }
 }
+
+ispalndrome("pizza");
  
   
