@@ -42,6 +42,9 @@ function isPalindrome(myString) {
 }
 */
 
-console.log(isPalindrome("pizza"));
+abc = "abc";
+console.log(abc);
+abcl = abc.length(1,0);
+console.log(abcl);
  
   
