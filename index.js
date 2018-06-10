@@ -1,5 +1,5 @@
 // Code your solution here!
-
+/*
  function printString(myString) {
   console.log(myString[0]);
  
@@ -40,6 +40,8 @@ function isPalindrome(myString) {
       }
 }
 }
+*/
+
 console.log(isPalindrome("pizza"));
  
   
