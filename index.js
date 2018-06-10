@@ -25,7 +25,6 @@ function reverseString(myString) {
 }
 */
 function isPalindrome(myString) {
-  console.log (myString);
     if (myString.length % 2 === 0) {
       if (myString[0] === myString[myString.length-1] && myString.length >2 ) {
        let mySubString = myString.substring(1, myString.length-2);
